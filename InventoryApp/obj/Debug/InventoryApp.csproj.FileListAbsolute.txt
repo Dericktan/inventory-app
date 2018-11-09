@@ -19,3 +19,4 @@ F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-ap
 F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.LoginForm.resources
 F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.Properties.Resources.resources
 F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.csproj.GenerateResource.Cache
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.CustomerForm.resources
