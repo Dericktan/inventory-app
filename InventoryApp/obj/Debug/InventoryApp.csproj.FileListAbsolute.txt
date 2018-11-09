@@ -1,0 +1,9 @@
+D:\Test Project\C#\InventoryApp\InventoryApp\bin\Debug\InventoryApp.exe.config
+D:\Test Project\C#\InventoryApp\InventoryApp\bin\Debug\InventoryApp.exe
+D:\Test Project\C#\InventoryApp\InventoryApp\bin\Debug\InventoryApp.pdb
+D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.csprojResolveAssemblyReference.cache
+D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.LoginForm.resources
+D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.Properties.Resources.resources
+D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.csproj.GenerateResource.Cache
+D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.exe
+D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.pdb
