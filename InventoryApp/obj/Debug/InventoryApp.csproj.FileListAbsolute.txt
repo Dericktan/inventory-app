@@ -10,3 +10,12 @@ D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.pdb
 D:\Test Project\C#\inventory-app\InventoryApp\bin\Debug\InventoryApp.exe.config
 D:\Test Project\C#\inventory-app\InventoryApp\obj\Debug\InventoryApp.exe
 D:\Test Project\C#\inventory-app\InventoryApp\obj\Debug\InventoryApp.pdb
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\bin\Debug\InventoryApp.exe.config
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.exe
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.pdb
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\bin\Debug\InventoryApp.exe
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\bin\Debug\InventoryApp.pdb
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.csprojResolveAssemblyReference.cache
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.LoginForm.resources
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.Properties.Resources.resources
+F:\SI UIB\3rd Semester\Object Oriented Programming\Theory\C#\Github\inventory-app\InventoryApp\obj\Debug\InventoryApp.csproj.GenerateResource.Cache
