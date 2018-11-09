@@ -7,3 +7,6 @@ D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.Properties.R
 D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.csproj.GenerateResource.Cache
 D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.exe
 D:\Test Project\C#\InventoryApp\InventoryApp\obj\Debug\InventoryApp.pdb
+D:\Test Project\C#\inventory-app\InventoryApp\bin\Debug\InventoryApp.exe.config
+D:\Test Project\C#\inventory-app\InventoryApp\obj\Debug\InventoryApp.exe
+D:\Test Project\C#\inventory-app\InventoryApp\obj\Debug\InventoryApp.pdb
