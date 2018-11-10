@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.txtUsername = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -46,17 +46,17 @@
             this.txtUsername.TabIndex = 2;
             this.txtUsername.Text = "USERNAME";
             // 
-            // textBox1
+            // txtPassword
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(174)))), ((int)(((byte)(205)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(107, 285);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(160, 22);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "PASSWORD";
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(174)))), ((int)(((byte)(205)))));
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.White;
+            this.txtPassword.Location = new System.Drawing.Point(107, 285);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(160, 22);
+            this.txtPassword.TabIndex = 5;
+            this.txtPassword.Text = "PASSWORD";
             // 
             // label1
             // 
@@ -69,6 +69,7 @@
             this.label1.Size = new System.Drawing.Size(118, 38);
             this.label1.TabIndex = 6;
             this.label1.Text = "LOGIN";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // LoginForm
             // 
@@ -79,7 +80,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(339, 493);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.DoubleBuffered = true;
             this.Name = "LoginForm";
@@ -93,7 +94,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtUsername;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label1;
     }
 }
