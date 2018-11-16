@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mASTERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cUSTOMERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sUPPLIERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tRANSACTIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEPORTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cLOSEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cUSTOMERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sUPPLIERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,19 @@
             this.mASTERToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.mASTERToolStripMenuItem.Text = "MASTER";
             // 
+            // cUSTOMERToolStripMenuItem
+            // 
+            this.cUSTOMERToolStripMenuItem.Name = "cUSTOMERToolStripMenuItem";
+            this.cUSTOMERToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cUSTOMERToolStripMenuItem.Text = "CUSTOMER";
+            this.cUSTOMERToolStripMenuItem.Click += new System.EventHandler(this.cUSTOMERToolStripMenuItem_Click);
+            // 
+            // sUPPLIERToolStripMenuItem
+            // 
+            this.sUPPLIERToolStripMenuItem.Name = "sUPPLIERToolStripMenuItem";
+            this.sUPPLIERToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sUPPLIERToolStripMenuItem.Text = "SUPPLIER";
+            // 
             // tRANSACTIONToolStripMenuItem
             // 
             this.tRANSACTIONToolStripMenuItem.Name = "tRANSACTIONToolStripMenuItem";
@@ -77,18 +90,6 @@
             this.cLOSEToolStripMenuItem.Name = "cLOSEToolStripMenuItem";
             this.cLOSEToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.cLOSEToolStripMenuItem.Text = "CLOSE";
-            // 
-            // cUSTOMERToolStripMenuItem
-            // 
-            this.cUSTOMERToolStripMenuItem.Name = "cUSTOMERToolStripMenuItem";
-            this.cUSTOMERToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cUSTOMERToolStripMenuItem.Text = "CUSTOMER";
-            // 
-            // sUPPLIERToolStripMenuItem
-            // 
-            this.sUPPLIERToolStripMenuItem.Name = "sUPPLIERToolStripMenuItem";
-            this.sUPPLIERToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.sUPPLIERToolStripMenuItem.Text = "SUPPLIER";
             // 
             // MainMenuForm
             // 

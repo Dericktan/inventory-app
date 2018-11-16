@@ -38,7 +38,7 @@ namespace InventoryApp
 
                 MainMenuForm m = new MainMenuForm();
                 m.Show();
-
+                conn.Close();
             }
             else
             {
