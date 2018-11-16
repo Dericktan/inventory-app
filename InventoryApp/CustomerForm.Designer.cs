@@ -32,12 +32,12 @@
             this.button7 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtCustomerStatus = new System.Windows.Forms.TextBox();
+            this.rtbCustomerAddress = new System.Windows.Forms.RichTextBox();
+            this.txtCustomerPhone = new System.Windows.Forms.TextBox();
+            this.txtCustomerName = new System.Windows.Forms.TextBox();
+            this.txtCustomerCode = new System.Windows.Forms.TextBox();
+            this.cbCustomerType = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,12 +50,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -93,54 +93,57 @@
             this.dataGridView1.Size = new System.Drawing.Size(337, 221);
             this.dataGridView1.TabIndex = 23;
             // 
-            // textBox4
+            // txtCustomerStatus
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(140, 183);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(173, 17);
-            this.textBox4.TabIndex = 12;
+            this.txtCustomerStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCustomerStatus.Location = new System.Drawing.Point(140, 183);
+            this.txtCustomerStatus.Name = "txtCustomerStatus";
+            this.txtCustomerStatus.Size = new System.Drawing.Size(173, 17);
+            this.txtCustomerStatus.TabIndex = 12;
             // 
-            // richTextBox1
+            // rtbCustomerAddress
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(140, 120);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(173, 57);
-            this.richTextBox1.TabIndex = 11;
-            this.richTextBox1.Text = "";
+            this.rtbCustomerAddress.Location = new System.Drawing.Point(140, 120);
+            this.rtbCustomerAddress.Name = "rtbCustomerAddress";
+            this.rtbCustomerAddress.Size = new System.Drawing.Size(173, 57);
+            this.rtbCustomerAddress.TabIndex = 11;
+            this.rtbCustomerAddress.Text = "";
             // 
-            // textBox3
+            // txtCustomerPhone
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(140, 96);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(173, 17);
-            this.textBox3.TabIndex = 10;
+            this.txtCustomerPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCustomerPhone.Location = new System.Drawing.Point(140, 96);
+            this.txtCustomerPhone.Name = "txtCustomerPhone";
+            this.txtCustomerPhone.Size = new System.Drawing.Size(173, 17);
+            this.txtCustomerPhone.TabIndex = 10;
             // 
-            // textBox2
+            // txtCustomerName
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(140, 73);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(173, 17);
-            this.textBox2.TabIndex = 9;
+            this.txtCustomerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCustomerName.Location = new System.Drawing.Point(140, 73);
+            this.txtCustomerName.Name = "txtCustomerName";
+            this.txtCustomerName.Size = new System.Drawing.Size(173, 17);
+            this.txtCustomerName.TabIndex = 9;
             // 
-            // textBox1
+            // txtCustomerCode
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(140, 50);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 17);
-            this.textBox1.TabIndex = 8;
+            this.txtCustomerCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCustomerCode.Location = new System.Drawing.Point(140, 50);
+            this.txtCustomerCode.Name = "txtCustomerCode";
+            this.txtCustomerCode.Size = new System.Drawing.Size(173, 17);
+            this.txtCustomerCode.TabIndex = 8;
             // 
-            // comboBox1
+            // cbCustomerType
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(140, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(173, 17);
-            this.comboBox1.TabIndex = 7;
+            this.cbCustomerType.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbCustomerType.FormattingEnabled = true;
+            this.cbCustomerType.Items.AddRange(new object[] {
+            "Pelanggan Tetap",
+            "Pelanggan Tidak Tetap"});
+            this.cbCustomerType.Location = new System.Drawing.Point(140, 27);
+            this.cbCustomerType.Name = "cbCustomerType";
+            this.cbCustomerType.Size = new System.Drawing.Size(173, 17);
+            this.cbCustomerType.TabIndex = 7;
             // 
             // label8
             // 
@@ -223,12 +226,12 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.textBox4);
-            this.tabPage1.Controls.Add(this.richTextBox1);
-            this.tabPage1.Controls.Add(this.textBox3);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.textBox1);
-            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.txtCustomerStatus);
+            this.tabPage1.Controls.Add(this.rtbCustomerAddress);
+            this.tabPage1.Controls.Add(this.txtCustomerPhone);
+            this.tabPage1.Controls.Add(this.txtCustomerName);
+            this.tabPage1.Controls.Add(this.txtCustomerCode);
+            this.tabPage1.Controls.Add(this.cbCustomerType);
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.label6);
@@ -275,65 +278,66 @@
             this.tabControl1.Size = new System.Drawing.Size(338, 235);
             this.tabControl1.TabIndex = 21;
             // 
-            // button6
+            // btnExit
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button6.Location = new System.Drawing.Point(270, 425);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 20;
-            this.button6.Text = "Keluar";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnExit.Location = new System.Drawing.Point(270, 425);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 20;
+            this.btnExit.Text = "Keluar";
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnEdit
             // 
-            this.button5.BackColor = System.Drawing.Color.Cyan;
-            this.button5.Location = new System.Drawing.Point(270, 396);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 19;
-            this.button5.Text = "Rubah";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnEdit.BackColor = System.Drawing.Color.Cyan;
+            this.btnEdit.Location = new System.Drawing.Point(270, 396);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.TabIndex = 19;
+            this.btnEdit.Text = "Rubah";
+            this.btnEdit.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnCancel
             // 
-            this.button4.BackColor = System.Drawing.Color.Cyan;
-            this.button4.Location = new System.Drawing.Point(189, 425);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Batal";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnCancel.BackColor = System.Drawing.Color.Cyan;
+            this.btnCancel.Location = new System.Drawing.Point(189, 425);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 18;
+            this.btnCancel.Text = "Batal";
+            this.btnCancel.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnSave
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button3.Location = new System.Drawing.Point(189, 396);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Simpan";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnSave.Location = new System.Drawing.Point(189, 396);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 17;
+            this.btnSave.Text = "Simpan";
+            this.btnSave.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnDelete
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(108, 425);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Hapus";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnDelete.Location = new System.Drawing.Point(108, 425);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 16;
+            this.btnDelete.Text = "Hapus";
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnAdd
             // 
-            this.button1.BackColor = System.Drawing.Color.Cyan;
-            this.button1.Location = new System.Drawing.Point(108, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Tambah";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAdd.BackColor = System.Drawing.Color.Cyan;
+            this.btnAdd.Location = new System.Drawing.Point(108, 396);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 15;
+            this.btnAdd.Text = "Tambah";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // CustomerForm
             // 
@@ -348,12 +352,12 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnAdd);
             this.DoubleBuffered = true;
             this.Name = "CustomerForm";
             this.Text = "CustomerForm";
@@ -371,12 +375,12 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtCustomerStatus;
+        private System.Windows.Forms.RichTextBox rtbCustomerAddress;
+        private System.Windows.Forms.TextBox txtCustomerPhone;
+        private System.Windows.Forms.TextBox txtCustomerName;
+        private System.Windows.Forms.TextBox txtCustomerCode;
+        private System.Windows.Forms.ComboBox cbCustomerType;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -386,12 +390,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage1;
