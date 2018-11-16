@@ -16,5 +16,11 @@ namespace InventoryApp
         {
             InitializeComponent();
         }
+
+        private void cUSTOMERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomerForm c = new CustomerForm();
+            c.Show();
+        }
     }
 }
