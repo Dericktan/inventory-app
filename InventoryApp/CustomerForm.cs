@@ -20,7 +20,7 @@ namespace InventoryApp
             InitializeComponent();
         }
 
-        Customer customerClass = new Customer();
+        CustomerMain customerClass = new CustomerMain();
 
         // if customerCode exist, user is in edit mode
         // if not exist, considered as inputting new customer
@@ -28,6 +28,7 @@ namespace InventoryApp
 
         private void CustomerForm_Load(object sender, EventArgs e)
         {
+            dataGridView1.DataMember = "customer";
             LoadData();
         }
         
@@ -35,7 +36,6 @@ namespace InventoryApp
         {
             DataSet data = customerClass.getData();
             dataGridView1.DataSource = data;
-            dataGridView1.DataMember = "customer";
             ClearInputs();
         }
 
@@ -110,6 +110,7 @@ namespace InventoryApp
                 c.CustomerCode = kodePelanggan;
                 c.CustomerName = namaPelanggan;
                 c.CustomerType = jenisPelanggan;
+                c.PhoneNumber = nohpPelanggan;
                 c.Address = alamatPelanggan;
                 c.Status = keteranganPelanggan;
                 customerClass.insertData(c);
@@ -134,9 +135,12 @@ namespace InventoryApp
                 c.CustomerCode = kodePelanggan;
                 c.CustomerName = namaPelanggan;
                 c.CustomerType = jenisPelanggan;
+                c.PhoneNumber = nohpPelanggan;
                 c.Address = alamatPelanggan;
                 c.Status = keteranganPelanggan;
-
+                Console.WriteLine("Save Clicked!");
+                Console.WriteLine(c.ToString());
+                Console.WriteLine("Save Clicked!");
                 if (customerCode == "" || customerCode == null)
                 {
                     customerClass.insertData(c);
@@ -157,14 +161,14 @@ namespace InventoryApp
             ClearInputs();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
             txtCustomerCode.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
             txtCustomerName.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
             cbCustomerType.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            txtCustomerPhone.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            rtbCustomerAddress.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+            rtbCustomerAddress.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            txtCustomerPhone.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
             txtCustomerStatus.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
 
             customerCode = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
@@ -183,6 +187,11 @@ namespace InventoryApp
                 customerClass.deleteData(customerCode);
                 LoadData();
             }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

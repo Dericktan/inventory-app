@@ -63,7 +63,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.Cyan;
-            this.button7.Location = new System.Drawing.Point(633, 195);
+            this.button7.Location = new System.Drawing.Point(625, 193);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 20);
             this.button7.TabIndex = 26;
@@ -75,7 +75,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(368, 177);
+            this.label9.Location = new System.Drawing.Point(380, 176);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(103, 15);
             this.label9.TabIndex = 24;
@@ -83,15 +83,21 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.DataMember = "customer";
             this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(371, 221);
+            this.dataGridView1.Location = new System.Drawing.Point(383, 220);
+            this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(337, 221);
+            this.dataGridView1.Size = new System.Drawing.Size(317, 221);
             this.dataGridView1.TabIndex = 23;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.Tag = "customer";
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // txtCustomerStatus
             // 
@@ -178,9 +184,9 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(371, 195);
+            this.textBox5.Location = new System.Drawing.Point(383, 194);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(256, 20);
+            this.textBox5.Size = new System.Drawing.Size(236, 20);
             this.textBox5.TabIndex = 25;
             // 
             // label5
@@ -218,7 +224,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 405);
+            this.label1.Location = new System.Drawing.Point(25, 404);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 32);
             this.label1.TabIndex = 22;
@@ -272,7 +278,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tabControl1.Location = new System.Drawing.Point(12, 155);
+            this.tabControl1.Location = new System.Drawing.Point(24, 154);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(338, 235);
@@ -281,17 +287,18 @@
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnExit.Location = new System.Drawing.Point(270, 425);
+            this.btnExit.Location = new System.Drawing.Point(283, 424);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 20;
             this.btnExit.Text = "Keluar";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Cyan;
-            this.btnCancel.Location = new System.Drawing.Point(189, 425);
+            this.btnCancel.Location = new System.Drawing.Point(202, 424);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 18;
@@ -302,7 +309,7 @@
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnSave.Location = new System.Drawing.Point(189, 396);
+            this.btnSave.Location = new System.Drawing.Point(202, 395);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(156, 23);
             this.btnSave.TabIndex = 17;
@@ -313,7 +320,7 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnDelete.Location = new System.Drawing.Point(108, 425);
+            this.btnDelete.Location = new System.Drawing.Point(121, 424);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 16;
@@ -324,7 +331,7 @@
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.Cyan;
-            this.btnAdd.Location = new System.Drawing.Point(108, 396);
+            this.btnAdd.Location = new System.Drawing.Point(121, 395);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 15;
@@ -338,7 +345,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(748, 462);
+            this.ClientSize = new System.Drawing.Size(722, 462);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.dataGridView1);
@@ -367,7 +374,6 @@
 
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtCustomerStatus;
         private System.Windows.Forms.RichTextBox rtbCustomerAddress;
         private System.Windows.Forms.TextBox txtCustomerPhone;
@@ -391,5 +397,6 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
