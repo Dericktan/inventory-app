@@ -47,7 +47,7 @@
             this.cLOSEToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(663, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(722, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,14 +63,14 @@
             // cUSTOMERToolStripMenuItem
             // 
             this.cUSTOMERToolStripMenuItem.Name = "cUSTOMERToolStripMenuItem";
-            this.cUSTOMERToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cUSTOMERToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.cUSTOMERToolStripMenuItem.Text = "CUSTOMER";
             this.cUSTOMERToolStripMenuItem.Click += new System.EventHandler(this.cUSTOMERToolStripMenuItem_Click);
             // 
             // sUPPLIERToolStripMenuItem
             // 
             this.sUPPLIERToolStripMenuItem.Name = "sUPPLIERToolStripMenuItem";
-            this.sUPPLIERToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sUPPLIERToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.sUPPLIERToolStripMenuItem.Text = "SUPPLIER";
             // 
             // tRANSACTIONToolStripMenuItem
@@ -96,7 +96,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(663, 465);
+            this.ClientSize = new System.Drawing.Size(722, 462);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainMenuForm";
